@@ -5,7 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [1.1.0] - 23/06/2021
+## [1.2.0](https://github.com/minamaged113/cmake-showcase/releases) - 23/06/2021
+
+Use Make build system
+
+### Changed
+
+- Use Make as build system instead of g++ directly
+
+## [1.1.0](https://github.com/minamaged113/cmake-showcase/releases/tag/1.1.0) - 23/06/2021
 
 Distribute functionality over multiple files.
 
