@@ -22,7 +22,7 @@ Distribute functionality over multiple files.
 
 - main source file performs function calls to perform {addition, division, print_result}.
 
-## [1.0.0] - 23/06/2021
+## [1.0.0](https://github.com/minamaged113/cmake-showcase/releases/tag/1.0.0) - 23/06/2021
   
 Basic functionality of the program without using CMake
  
