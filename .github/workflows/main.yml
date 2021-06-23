@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: BUILD_STAGE
-        run: ./build.sh
+        run: ./bld.sh
 
   build_Windows:
     runs-on: windows-2019
