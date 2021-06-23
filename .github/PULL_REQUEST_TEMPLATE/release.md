@@ -1,4 +1,22 @@
-# Release Checklist
+# Release Version [<VERSION>]
+
+## Checklist for release
 
 - [ ] Updated CHANGELOG.md
 - [ ] Updated README.md
+
+## Description of the release
+
+This release has,
+
+### Added
+
+- item #1
+
+### Changed
+
+- item #A
+
+### Removed
+
+- item #i
