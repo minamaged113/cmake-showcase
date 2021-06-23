@@ -13,3 +13,16 @@ Please check the [changelog](CHANGELOG.md) for more information.
 - [Make](https://www.gnu.org/software/make/)
 - [Ninja](https://ninja-build.org/)
 - [others](https://alternativeto.net/software/ninja-build/)
+
+
+## System Requirments
+
+### Debian
+
+```bash
+sudo apt-get install build-essential
+```
+
+### Windows
+
+Check [Mingw](http://mingw-w64.org/doku.php)
