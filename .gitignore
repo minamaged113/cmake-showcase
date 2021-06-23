@@ -1,5 +1,8 @@
 # ignore the output executable
 calculator
 
+# ignore object files
+*.o
+
 # ignore .vscode config dir
 .vscode/
