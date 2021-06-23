@@ -1,4 +1,4 @@
-# Release Version [<VERSION>]
+# Release Version [ < VERSION > ]
 
 ## Checklist for release
 
