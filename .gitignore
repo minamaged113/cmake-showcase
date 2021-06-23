@@ -4,5 +4,8 @@ calculator
 # ignore object files
 *.o
 
+# ignore build dir
+build/
+
 # ignore .vscode config dir
 .vscode/
