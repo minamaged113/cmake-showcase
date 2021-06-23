@@ -1,0 +1,5 @@
+# ignore the output executable
+calculator
+
+# ignore .vscode config dir
+.vscode/
