@@ -27,3 +27,16 @@ sudo apt-get install build-essential cmake
 
 - Check [Mingw](http://mingw-w64.org/doku.php)
 - Check [CMake](https://cmake.org/download/)
+
+## CMake
+
+### Targets
+
+Every target has its own properties. The ones encountered most often are:
+
+- INTERFACE_LINK_DIRECTORIES:
+    - Is set when `target_link_libraries(A <PUBLIC|INTERFACE> B C)`
+    - If `PRIVATE` is used, the it is not set.
+- INCLUDE_DIRECTORIES
+- VERSION
+- SOURCES
