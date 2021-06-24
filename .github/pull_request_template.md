@@ -4,6 +4,7 @@
 
 - [ ] Updated CHANGELOG.md
 - [ ] Updated README.md
+- [ ] Update root CMakeLists.txt project version
 
 ## Description of the release
 
