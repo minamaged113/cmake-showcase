@@ -1,5 +1,5 @@
 add_library(
     my_math
-    addition.cpp
-    division.cpp
+    src/addition.cpp
+    src/division.cpp
 )

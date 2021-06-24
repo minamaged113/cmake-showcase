@@ -1,7 +1,7 @@
 #include <iostream>
-#include "math/addition.h"
-#include "math/division.h"
-#include "print/print_result.h"
+#include "math/include/addition.h"
+#include "math/include/division.h"
+#include "print/include/print_result.h"
 
 
 int main()
