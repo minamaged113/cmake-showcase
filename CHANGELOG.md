@@ -5,7 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [1.3.0](https://github.com/minamaged113/cmake-showcase/releases) - 24/06/2021
+## [1.4.0](https://github.com/minamaged113/cmake-showcase/releases) - 24/06/2021
+
+## Changed
+
+- CMakeLists file hierarchy changed to create libraries and link them to the executable
+
+## [1.3.0](https://github.com/minamaged113/cmake-showcase/releases/tag/1.3.0) - 24/06/2021
 
 Use CMake in creating executables
 
