@@ -1,6 +1,6 @@
 #include <iostream>
-#include "math/include/addition.h"
-#include "math/include/division.h"
+#include "addition.h"
+#include "division.h"
 #include "print_result.h"
 
 

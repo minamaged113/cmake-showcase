@@ -3,3 +3,9 @@ add_library(
     src/addition.cpp
     src/division.cpp
 )
+
+target_include_directories(
+    my_math
+    PUBLIC
+    include
+)

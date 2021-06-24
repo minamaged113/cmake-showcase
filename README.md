@@ -40,3 +40,12 @@ Every target has its own properties. The ones encountered most often are:
 - INCLUDE_DIRECTORIES
 - VERSION
 - SOURCES
+
+#### `target_include_directories`
+
+To allow the build process to reach the correct header includes without using full path in include statements
+It has 3 properties:
+
+- PUBLIC
+- PRIVATE
+- INTERFACE
