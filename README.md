@@ -20,9 +20,10 @@ Please check the [changelog](CHANGELOG.md) for more information.
 ### Debian
 
 ```bash
-sudo apt-get install build-essential
+sudo apt-get install build-essential cmake
 ```
 
 ### Windows
 
-Check [Mingw](http://mingw-w64.org/doku.php)
+- Check [Mingw](http://mingw-w64.org/doku.php)
+- Check [CMake](https://cmake.org/download/)

@@ -5,7 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [1.2.0](https://github.com/minamaged113/cmake-showcase/releases) - 23/06/2021
+## [1.3.0](https://github.com/minamaged113/cmake-showcase/releases) - 24/06/2021
+
+Use CMake in creating executables
+
+### Changed
+
+- Use CMake instead of Make.
+- Build script
+- github actions build script
+- Add CMake installation info
+
+## [1.2.0](https://github.com/minamaged113/cmake-showcase/releases/tag/1.2.0) - 23/06/2021
 
 Use Make build system
 
