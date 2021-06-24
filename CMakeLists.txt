@@ -5,16 +5,8 @@ project(
     VERSION 1.4.0
 )
 
-add_library(
-    my_math
-    addition.cpp
-    division.cpp
-)
-
-add_library(
-    my_print
-    print_result.cpp
-)
+add_subdirectory(math)
+add_subdirectory(print)
 
 add_executable(
     calculator
