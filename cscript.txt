@@ -2,8 +2,20 @@
 cmake_minimum_required(VERSION 3.10)
 message("Giving information about this project.")
 
-string(TARGET "calculator")
+set(TARGET "calculator")
 list(APPEND TARGET_LIBS math print)
 
 message("Target name is: ${TARGET}")
 message("Included libraries are: ${TARGET_LIBS}")
+
+# The following shows how to manipulate variables
+set(NAME Alice)
+set(Alice Bob)
+# it can be done with one extra level
+set(NAMEAliceBob Charlie)
+
+message("variable: NAME")
+message("refers to: ${NAME}")
+message("which refers to: ${${NAME}}")
+message(NAME --> ${NAME} --> ${${NAME}})
+message(${NAME${NAME}${${NAME}}}) # CMake concatenates each part

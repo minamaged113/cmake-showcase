@@ -94,3 +94,34 @@ The variable can then be dereferenced and the value retrieved as follows:
 | set(VAR "aa" "bb" "cc") | aa;bb;cc | aabbcc | aa;bb;cc |
 | set(VAR "aa bb cc") | aa bb cc | aa bb cc | aa bb cc |
 | set(VAR "aa;bb;cc") | aa;bb;cc | aabbcc | aa;bb;cc |
+
+### [List](https://cmake.org/cmake/help/latest/command/list.html) variables
+
+It6 has a general form of `list(<subcommand> <name_of_list>... ... ... <return_variable>)`
+
+The most-used available subcommands are:
+
+- `APPEND`
+- `REMOVE_ITEM`
+- `REMOVE_AT`
+- `INSERT`
+- `REVERSE`
+- `FILTER`
+- `GET`
+- `JOIN`
+- `REMOVE_DUPLICATES`
+- `SORT`
+
+#### list indexing
+
+For a command that looks like the following: `set(VAR a b c;d "e,f" 2,718 "Hello There")`
+
+| set(VAR | a | b | c; | d | "e, | f" | 2,718 | "Hello There") |
+|---|---|---|---|---|---|---|---|---|
+| +ve index | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| -ve index | -8 | -7 | -6 | -5 | -4 | -3 | -2 | -1 |
+| -ve index | -8 | -7 | -6 | -5 | -4 | -3 | -2 | -1 |
+
+### [Generator Expressions](https://cmake.org/cmake/help/latest/manual/cmake-generator-expressions.7.html)
+
+Beware not to mix these with variables
