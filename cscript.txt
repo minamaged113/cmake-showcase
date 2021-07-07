@@ -1,0 +1,9 @@
+# this is a cmake script.
+cmake_minimum_required(VERSION 3.10)
+message("Giving information about this project.")
+
+string(TARGET "calculator")
+list(APPEND TARGET_LIBS math print)
+
+message("Target name is: ${TARGET}")
+message("Included libraries are: ${TARGET_LIBS}")
